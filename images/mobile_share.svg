@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16.968 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#45c0e3"/>
+      <stop offset="0.207" stop-color="#5dd0e2"/>
+      <stop offset="0.549" stop-color="#66d6e2"/>
+      <stop offset="0.888" stop-color="#87ebe0"/>
+      <stop offset="1" stop-color="#87ebe0"/>
+    </linearGradient>
+  </defs>
+  <g id="share" transform="translate(-13.8)">
+    <path id="Path_44" data-name="Path 44" class="cls-1" d="M27.547,11.564A3.221,3.221,0,0,0,25,12.82l-4.945-2.762A3.229,3.229,0,0,0,20.232,9a3.158,3.158,0,0,0-.183-1.065L24.99,5.173a3.215,3.215,0,1,0-.665-1.955,3.142,3.142,0,0,0,.183,1.065L19.571,7.042a3.215,3.215,0,1,0,.007,3.906l4.941,2.762a3.216,3.216,0,1,0,3.027-2.145Zm0-10.551a2.209,2.209,0,1,1-2.209,2.209A2.211,2.211,0,0,1,27.547,1.013ZM17.022,11.205A2.209,2.209,0,1,1,19.231,9,2.211,2.211,0,0,1,17.022,11.205Zm10.525,5.782a2.209,2.209,0,1,1,2.209-2.209A2.211,2.211,0,0,1,27.547,16.987Z"/>
+  </g>
+</svg>
