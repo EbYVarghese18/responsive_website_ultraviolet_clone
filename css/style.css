@@ -1,9 +1,12 @@
+
+/* navbar starts */
 .header {
   background: #000000;
   height: 70px;
 }
 .headerrow{
   height: 100%;
+  display: flex;
 }
 .header .logoimage { 
   height: 27px;
@@ -11,6 +14,9 @@
 .header .logotext{
     margin-left: 20px;
     height: 27px;
+}
+.navbar-toggler{
+  background-image: url(../images/mobile_hamburger.png);
 }
 .navbar .nav-link {
   color: #ffffff;
@@ -20,16 +26,16 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
-.header button {
+.header .navbarbutton {
   border: 1.5px solid;
   background: #000000;
   color: #ffffff;
   border-color: #45c0e3;
   font-size: 15px;
-  width: 200px;
+  width: 200px;   
   height: 35px;
 }
-.header button:hover {
+.header .navbarbutton:hover {
   background: #45c0e3;
 }
 
@@ -101,7 +107,7 @@ video {
 /* prefooter starts */
 
 .prefooter{
-  background-image: url('../images/preFooter_signup.jpg'); 
+  background-image: url('../images/preFooter_signup.webp'); 
   height: 100vh;
   background-size: cover;  
   background-position: center center  ;
@@ -259,10 +265,18 @@ video {
         height: 80px;
     }
     .header button{
-        height: 40px;
+        height: 29px;
         font-size: 12px;
-        width: 110px;
+        width: 32px;
     }
+    .header button:hover{
+      
+    }
+    .header .navbarbutton{
+      height: 41px;
+      font-size: 12px;
+      width: 92px;
+  }
     .video p{
         width: 100%;
     }
@@ -275,5 +289,7 @@ video {
     .footer div{
         margin-bottom: 20px !important;
     }
-
+    .selectpersonality img{
+      width: 75px;
+    }
 }
